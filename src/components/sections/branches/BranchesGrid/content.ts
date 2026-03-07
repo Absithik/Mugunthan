@@ -1,0 +1,8 @@
+export const BRANCHES_GRID_CONTENT = [
+    { city: "Erode Branch Office", address: "#1181, Annapoorni Maligai Upstar, Mettur Road, Erode – 638 011.", phone: "+91 96550 99911, +91 96550 99933", email: "support@mugunthanpackersandmovers.com", web: "https://mugunthanpackersandmovers.com" },
+    { city: "Salem Branch Office", address: "A Block, Anna Nagar, Fort, Salem – 636 001.", phone: "+91 96550 99911, +91 96550 99933", email: "support@mugunthanpackersandmovers.com", web: "https://mugunthanpackersandmovers.com" },
+    { city: "Namakkal Branch Office", address: "#1/199-101, Amman Nagar, Veppadai, Komarapalayam, Ellandaikuttai – Post, Namakkal, Tamil Nadu, 638 008.", phone: "+91 96550 99911, +91 96550 99933", email: "support@mugunthanpackersandmovers.com", web: "https://mugunthanpackersandmovers.com" },
+    { city: "Tirupur Branch Office", address: "Karuppa Goundan palayam road, Muthaiyan nagar Tirupur – 641 604.", phone: "+91 96550 99911, +91 96550 99933", email: "support@mugunthanpackersandmovers.com", web: "https://mugunthanpackersandmovers.com" },
+    { city: "Coimbatore Branch Office", address: "#10 sree Sakthi Nagar, Thondamuthur Main Road, Vadavalli Coimbatore 641 041.", phone: "+91 96550 99911, +91 96550 99933", email: "support@mugunthanpackersandmovers.com", web: "https://mugunthanpackersandmovers.com" },
+    { city: "Chennai Branch Office", address: "#32 Bharathiyar Street, Mothilal Nagar, M.E.S. Road, East Tambaram, Chennai – 600 059.", phone: "+91 96550 99911, +91 96550 99933", email: "support@mugunthanpackersandmovers.com", web: "https://mugunthanpackersandmovers.com" },
+];
