@@ -9,7 +9,7 @@ const insightsData = [
     {
         id: 1,
         title: "Shifting Solutions",
-        image: "/assets/insight_containers.png",
+        image: "/assets/shifting.png",
         date: "Feb 9, 2025",
         readTime: "5min",
         link: "/services/shifting"
@@ -17,7 +17,7 @@ const insightsData = [
     {
         id: 2,
         title: "Premium Packing",
-        image: "/assets/insight_ship.png",
+        image: "/assets/packing.png",
         date: "Feb 9, 2025",
         readTime: "4min",
         link: "/services/packing"
