@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { Phone, Mail, MapPin, Facebook, Instagram, Twitter, Linkedin, Truck, ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
 
@@ -15,19 +16,19 @@ const Footer = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 mb-16">
 
                     <div className="space-y-8">
-                        <Link href="/" className="flex items-center gap-3 group">
-                            <div className="w-12 h-12 bg-white rounded-2xl flex items-center justify-center text-primary shadow-lg shadow-white/10">
-                                <Truck size={24} />
-                            </div>
-                            <div className="flex flex-col">
-                                <span className="text-2xl font-black font-heading leading-none tracking-tighter">MUGUNTHAN</span>
-                                <span className="text-[10px] font-black text-accent tracking-[0.3em] uppercase">Packers & Movers</span>
-                            </div>
+                        <Link href="/" className="flex items-center gap-3 group" aria-label="Mugunthan Packers & Movers Home">
+                            <Image
+                                src="/assets/mugundhan_logo.png"
+                                alt="Mugunthan Packers & Movers Logo"
+                                width={200}
+                                height={80}
+                                className="h-16 md:h-20 w-auto object-contain hover:scale-105 transition-transform drop-shadow-lg"
+                            />
                         </Link>
                         <p className="text-white/60 font-medium leading-relaxed max-w-xs">
                             Mugunthan Packers & Movers is redefining relocation with a bold, anime-inspired, high-speed experience.
                         </p>
-                        <div className="flex gap-4">
+                        {/* <div className="flex gap-4">
                             {[
                                 { Icon: Facebook, label: "Facebook" },
                                 { Icon: Instagram, label: "Instagram" },
@@ -38,7 +39,7 @@ const Footer = () => {
                                     <Icon size={18} />
                                 </Link>
                             ))}
-                        </div>
+                        </div> */}
                     </div>
 
                     <div className="space-y-8">

@@ -6,7 +6,7 @@ export const ExpansionStats = () => {
     const { title, description, items, mapImage } = EXPANSION_STATS_CONTENT;
 
     return (
-        <section className="py-24 bg-primary text-white overflow-hidden">
+        <section className="py-10 bg-primary text-white overflow-hidden">
             <div className="container mx-auto px-6">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
                     <FadeIn>
@@ -35,7 +35,7 @@ export const ExpansionStats = () => {
                             <img
                                 src={mapImage.url}
                                 alt={mapImage.alt}
-                                className="w-full opacity-20 grayscale"
+                                className="w-full opacity-100"
                             />
                         </div>
                     </FadeIn>

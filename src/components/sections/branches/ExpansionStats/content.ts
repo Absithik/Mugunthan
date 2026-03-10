@@ -6,7 +6,7 @@ export const EXPANSION_STATS_CONTENT = {
         { value: "1200+", label: "Fleet Drivers" }
     ],
     mapImage: {
-        url: "https://images.unsplash.com/photo-1590674033314-0465f7253457?auto=format&fit=crop&q=80&w=1200",
+        url: "/assets/map.png",
         alt: "Indian Map Network"
     }
 };

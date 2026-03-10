@@ -64,11 +64,11 @@ export const HowItWorksSection = () => {
                             <p className="text-lg font-medium text-primary/60">{trustBanner.description}</p>
                         </div>
                         <div className="flex -space-x-4">
-                            {trustBanner.avatars.map((url, i) => (
+                            {/* {trustBanner.avatars.map((url, i) => (
                                 <div key={i} className="w-14 h-14 rounded-full border-4 border-white bg-accent overflow-hidden shadow-lg">
                                     <img src={url} alt={`avatar-${i}`} />
                                 </div>
-                            ))}
+                            ))} */}
                         </div>
                     </div>
                 </FadeInUp>

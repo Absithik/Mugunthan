@@ -40,12 +40,12 @@ export const HOW_IT_WORKS_CONTENT = {
     trustBanner: {
         title: "TRUSTED PACKERS IN SALEM.",
         description: "1000+ shifts completed with 5+ years of excellence in Salem logistics.",
-        avatars: [
-            "https://i.pravatar.cc/100?img=20",
-            "https://i.pravatar.cc/100?img=21",
-            "https://i.pravatar.cc/100?img=22",
-            "https://i.pravatar.cc/100?img=23",
-            "https://i.pravatar.cc/100?img=24"
-        ]
+        // avatars: [
+        //     "https://i.pravatar.cc/100?img=20",
+        //     "https://i.pravatar.cc/100?img=21",
+        //     "https://i.pravatar.cc/100?img=22",
+        //     "https://i.pravatar.cc/100?img=23",
+        //     "https://i.pravatar.cc/100?img=24"
+        // ]
     }
 };
