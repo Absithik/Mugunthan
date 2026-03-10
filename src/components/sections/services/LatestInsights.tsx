@@ -25,7 +25,7 @@ const insightsData = [
     {
         id: 3,
         title: "Loading & Unloading",
-        image: "/assets/insight_airplane.png",
+        image: "/assets/loading_unloading.png",
         date: "Feb 9, 2025",
         readTime: "6min",
         link: "/services/loading-unloading"
@@ -33,7 +33,7 @@ const insightsData = [
     {
         id: 4,
         title: "National Transport",
-        image: "/assets/insight_airplane.png",
+        image: "/assets/national_transport.png",
         date: "Feb 9, 2025",
         readTime: "6min",
         link: "/services/transport"

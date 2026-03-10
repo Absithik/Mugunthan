@@ -82,29 +82,30 @@ const Footer = () => {
                     </div>
 
                     <div className="space-y-8">
-                        <h4 className="text-xl font-black font-heading tracking-tight italic">SALEM HEADQUARTERS</h4>
+                        <h4 className="text-xl font-black font-heading tracking-tight uppercase italic">Contact Us</h4>
                         <div className="space-y-6">
                             <div className="flex gap-4">
                                 <MapPin className="text-accent shrink-0" />
                                 <p className="text-white/60 font-bold leading-relaxed">
-                                    Fairlands, Main Road, <br />
-                                    Salem, Tamil Nadu 636016
+                                    Door no.11/265, <br />
+                                    Kongupatti, Kadayampatti(Tk), <br />
+                                    Salem (Dt), Pin Code-636305
                                 </p>
                             </div>
-                            <a href="tel:+919876543210" className="flex gap-4 items-center group">
+                            <a href="tel:+918220800577" className="flex gap-4 items-center group">
                                 <Phone className="text-accent shrink-0" />
-                                <span className="text-white/60 group-hover:text-white font-black transition-colors">+91 98765 43210</span>
+                                <span className="text-white/60 group-hover:text-white font-black transition-colors">+91 82208 00577</span>
                             </a>
-                            <a href="mailto:hi@mugunthan.mov" className="flex gap-4 items-center group">
+                            <a href="mailto:mugunthanpackersandmovers@gmail.com" className="flex gap-4 items-center group overflow-hidden">
                                 <Mail className="text-accent shrink-0" />
-                                <span className="text-white/60 group-hover:text-white font-black transition-colors">hi@mugunthan.mov</span>
+                                <span className="text-white/60 group-hover:text-white font-black text-sm md:text-base break-all transition-colors">mugunthanpackersandmovers@gmail.com</span>
                             </a>
                         </div>
                     </div>
                 </div>
 
-                <div className="pt-10 border-t border-white/5 text-center text-white/40 text-sm font-bold">
-                    © {new Date().getFullYear()} Mugunthan Packers & Movers. Best Packers and Movers in Salem. Reimagined by NK Modern Technology.
+                <div className="pt-10 border-t border-white/5 text-center text-white/40 text-sm font-bold leading-relaxed">
+                    © {new Date().getFullYear()} Mugunthan Packers & Movers. Best Packers and Movers in Salem. Reimagined by <a href="https://nkmoderntechnology.com/" target="_blank" rel="noopener noreferrer" className="inline-block font-black text-white/60 hover:text-accent hover:-translate-y-0.5 hover:scale-105 transition-all duration-300 drop-shadow-lg hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.5)]">NK Modern Technology</a>.
                 </div>
             </div>
         </footer>

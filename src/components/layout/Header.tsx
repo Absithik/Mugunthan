@@ -68,14 +68,14 @@ const Header = () => {
                         <div className={`h-4 w-px ${isScrolled || isHome ? 'bg-primary/10' : 'bg-white/20'}`} />
                         <div className="flex flex-col items-end">
                             <a
-                                href="tel:+919876543210"
+                                href="tel:+918220800577"
                                 className={`flex items-center gap-2 font-black transition-transform hover:scale-105 ${isScrolled || isHome ? 'text-primary' : 'text-white'}`}
                             >
                                 <Phone size={16} className="text-secondary" />
-                                <span className="text-sm">+91 98765 43210</span>
+                                <span className="text-sm">+91 82208 00577</span>
                             </a>
                             <a
-                                href="https://wa.me/919876543210"
+                                href="https://wa.me/918220800577"
                                 className="flex items-center gap-1 text-[10px] font-bold text-green-500 hover:text-green-600 transition-colors"
                             >
                                 <span className="w-1.5 h-1.5 bg-green-500 rounded-full animate-pulse" />
@@ -83,7 +83,7 @@ const Header = () => {
                             </a>
                         </div>
                         <Link
-                            href="https://wa.me/919876543210"
+                            href="https://wa.me/918220800577"
                             className="bg-secondary text-white px-6 py-3 rounded-xl font-bold hover:bg-secondary/90 hover:scale-105 active:scale-95 transition-all shadow-lg shadow-secondary/10 text-sm"
                         >
                             Get Free Quote
