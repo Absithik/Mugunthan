@@ -21,6 +21,9 @@ const FAQSection = dynamic(() => import("../components/sections/home/FAQSection"
 const CTASection = dynamic(() => import("../components/sections/home/CTASection").then(mod => mod.CTASection), { ssr: true });
 const FloatingActions = dynamic(() => import("@/components/ui/FloatingActions").then(mod => mod.FloatingActions));
 
+
+
+
 export default function Home() {
   return (
     <div className="relative">
